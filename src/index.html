@@ -7,32 +7,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-     <script src="index.js" type="module"></script>
+
 
     <section class="inicio">
       <div class="topsecret">
         <h1>Top Secret 🤐</h1>
       </div>
 
-      <div class= "inicio" style="display:none">
+    <!--<div id="start" class= "inicio" style="noNE">
       <p class= "texto"> ¿Quieres contar tus secretos a tus amig@s sin que nadie lo vea?<br><br>
         Top Secret es el lugar indicado para ti, es una aplicación para encriptar tus mensajes 
         basada en el antiguo código césar.<br>
         Para compartir tus mensajes secretos solo debes cifrar tu mensaje y copiarlo 
         en tu aplicación de chat favorita y enviar junto a la clave secreta a tu amig@ para que pueda 
-        descifrar tu mensaje. </p>
+        descifrar tu mensaje. </p><--
     
-        <button class="comenzar">Comenzar</button>
-      </div>
+        <button type="button" class="comenzar" onclick="verFormulario()">Comenzar</button>
+      </div>-->
 
-      <div class="formulario" style="display:block" id="">
+      <div class="formulario" id="formularios">
       
        <input autocomplete="off" placeholder="Escribe tu mensaje aqui" type="text" id="mensaje">
        <input type="number" placeholder="Escribe tu clave aqui" id="desplazamiento">
        <button class="cifrar" id="cifrar">Cifrar</button>
        <button class="descifrar" id="descifrar">Descifrar</button>
        <input type="text" placeholder="Mensaje cifrado/descifrado" id="resultado">
-       <button class="borrar" id="borrar">Borrar</button>
+       <button type="button" class="borrar" id="borrar">Borrar</button>
+
     </div> 
   </section>
+  <script src="index.js" type="module"></script>
   </body>
+  </html>

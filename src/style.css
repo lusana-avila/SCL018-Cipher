@@ -5,8 +5,8 @@
 }
 
 body {
-    /*background: linear-gradient( #6C4A98, #4EBAB0);*/
-    background-image: url(../img/fondo.jpg);
+   /* background: linear-gradient( #6C4A98, #4EBAB0);*/
+    background-image: url(./img/fondo.jpg);
     background-size: 100%;
 
 }
