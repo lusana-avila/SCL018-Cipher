@@ -20,6 +20,16 @@ function textcipher() {
       
   }
 
+  function limpiar(){
+    document.getElementById("mensaje").value = "";
+    document.getElementById("resultado").value = "";
+    document.getElementById("desplazamiento").value = "";  
+  }
+  
+  const botonBorrar = document.getElementById("borrar");
+  botonBorrar.addEventListener("click", limpiar);
+
+
   
 
 
